@@ -2,12 +2,14 @@
 Implementing the LS command of linux terminal using system calls with few options
 
 Options supported in my LS command
-> -l : show long list
-> -a : show all hidden files
-> -s : show block size
-> -i : show inode number
-> -r : show reverse list
+```
+ -l : show long list
+ -a : show all hidden files
+ -s : show block size
+ -i : show inode number
+ -r : show reverse list
 Apart from these options we can also give multiple paths.
+```
 
 * myheaher.h   : header file for project
 * makefile     : makefile for project
