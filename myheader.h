@@ -28,7 +28,7 @@ void revlist(void);
 void printlist(int);
 
 char **list;
-int opa,opi,opl,opr,ops;
+char opa,opi,opl,opr,ops;
 int fno,len,big;
 
 char *path[10];
