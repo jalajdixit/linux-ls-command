@@ -6,17 +6,9 @@ void main(int argc,char *argv[])
 {
 	int i,j;
 	char option[10]="";
-	if(argc==1)
-	{
-		//normal printing for ls
-		goto here;
-/*		path[0]=".";
-		dno=1;
-		makelist();
-		sortlist();
-		noplist();
-		return;
-*/	}
+
+	if(argc==1)		//normal printing for ls
+	goto here;
 
 	for(i=1,dno=0;i<argc;i++)
 	{
